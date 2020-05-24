@@ -1,7 +1,9 @@
 ;(function () {
 	
 	'use strict';
-
+jQuery.htmlPrefilter = function( html ) {
+	return html;
+};
 
 
 	var isMobile = {
